@@ -12,6 +12,7 @@ body {
 header {
     flex-direction: row;
     display: flex;
+    flex-wrap: wrap;
     height: 64px;
     width: 1381px;
     justify-content: space-between;
