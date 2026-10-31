@@ -2,16 +2,94 @@
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
-}
-
-body {
     font-family: 'Roboto', sans-serif;
+}
+body {
     margin: 0px;
     padding: 0px;
     background-color: white;
 }
+header {
+    flex-direction: row;
+    display: flex;
+    height: 64px;
+    width: 1381px;
+    justify-content: space-between;
+}
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.header-left svg {
+    width: auto;
+    color: black;
+    vertical-align: middle;
+}
+.header-left svg1 {
+    width: auto;
+    color: black;
+}
 
+.header-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-left: 20px;
+}
+.header-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-right: 30px;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: left;
+    padding-left: 35px;
+    width: 100%;
+    gap: 1.6rem;
+    font-size: 13px;
+
+}
 nav a {
     text-decoration: none;
+    color: #333;
+}
+nav:hover a {
+    color:#929191;
+}
+nav a:hover {
+    color: black;
+}
+.btn-1 {
+    background-color: #f5f5f5;
+    border: border solid 1px;
+    padding: 10px 16px;
+    font-size: 14px;
+    border-radius: 25px;
+    color: black;
+    text-decoration: none;
+    gap: 30px;
+    border: none;
+    
+}
+.btn-1:hover{
+    background-color: #d3d3d3;
+}
+.btn-2 {
+    background-color: black;
+    padding: 10px 16px;
+    font-size: 14px;
+    border-radius: 25px;
+    color: white;
+    text-decoration: none;
+    border: none;
 }
 
