@@ -47,7 +47,7 @@ header {
 }
 .header-right {
     display: flex;
-    flex: wrap;
+    flex-shrink: 0;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -99,4 +99,47 @@ nav a:hover {
     text-decoration: none;
     border: none;
 }
-
+.container-investigacion {
+    width: 1381px;
+    height: 631px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.container-inv__left {
+    display: flex;
+    margin-top: auto;
+    flex-direction: column;
+    width: 50%;
+    padding: 0px 22px;
+}
+.container-inv__right {
+    display: flex;
+    width: 50%;
+}
+.inv-left1 {
+    align-items: left;
+}
+.inv-left2 {
+    padding: 1px;
+}
+.inv-left3 {
+    margin-top: 5px;
+}
+.phrase1{ 
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+.titulo-interno {
+    font-size: 63px;
+    text-wrap: pretty;
+}
+.phrase2 {
+    font-size: 17px;
+    text-wrap: pretty;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.container-inv__right {
+    background-image: url(https://images.ctfassets.net/kftzwdyauwt9/s3mCQrDENPWinYfGlecq2/73a01038aa0e5f1946a1858cde281b41/solution-research-hero.png?w=1920&q=90&fm=webp);
+}
