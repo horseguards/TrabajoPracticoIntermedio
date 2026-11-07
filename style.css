@@ -286,6 +286,7 @@ nav a:hover {
   font-weight: 400;
   color: #918888;
 }
+/* Responsive > 1600px */
 @media (min-width: 1600px) {
   header {
   margin: 0 auto;
@@ -298,11 +299,9 @@ nav a:hover {
     gap: 12px;
     padding-left: 15px;
   }
-
   .header-right {
     display: none;
   }
-
   .header-right .btn-1 {
     display: none;
   }
@@ -312,11 +311,9 @@ nav a:hover {
   .titulo-interno {
     font-size: 44px;
   }
-
   .hero {
     min-height: 500px;
   }
-
   .hero-inv__right {
     min-height: 500px;
   }
@@ -335,7 +332,6 @@ nav a:hover {
   .solucion__cards {
     gap: 12px;
   }
-
   .card-content img {
     height: 180px;
   }
@@ -434,19 +430,15 @@ nav a:hover {
     font-size: 11px;
     padding: 8px 10px;
   }
-
   .hero-inv__right {
     min-height: 250px;
   }
-
   .titulo-interno {
     font-size: 36px;
   }
-
   .phrase2 {
     font-size: 15px;
   }
-
   .solucion__title {
     font-size: 30px;
   }
