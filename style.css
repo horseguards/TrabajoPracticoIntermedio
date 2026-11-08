@@ -404,7 +404,7 @@ nav a:hover {
     flex: none;
     min-width: 0;
   }
-  .cardo-content button {
+  .card-content button {
     width: 100%;
     margin-top: 1px;
   }
